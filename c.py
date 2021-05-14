@@ -27,9 +27,7 @@ h4 = Hospital(nombre="Luis Vernaza", numero_camas=80, \
         numero_pisos=10, ciudad="Guayaquil", provincia="Guayas")
 # se agrega los objetos
 # a la sesión
-# a la espera de un commit
-# para agregar un registro a la base de 
-# datos
+
 session.add(h1)
 session.add(h2)
 session.add(h3)
