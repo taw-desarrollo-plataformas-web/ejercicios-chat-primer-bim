@@ -17,7 +17,7 @@ class Hospital():
     provincia = Column(String)
     
     def __repr__(self):
-        return "Hospital: %s - camas: %d - pisos: %d" % (
+        return "Hospital: %s - camas: %d - pisos: %d \n%s %s" % (
                           self.nombre, 
                           self.numero_camas, 
                           self.numero_pisos,
